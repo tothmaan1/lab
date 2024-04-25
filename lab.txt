@@ -49,5 +49,9 @@ This should correct and clarify your practice notes. Let me know if there's anyt
 -G: takes you to the bottom of page
 -$: takes you to the end of the line/sentence
 -0: takes you to the beginning of the line/sentence
-
-
+-L: is go right on 1 character
+-K: is to go up on 1 character
+-J: is to go down on 1 character
+-H: is to go left on 1 character 
+-[0-9] (L,K,J,H): is go any number you chose to move on the character
+-d$: is to delete entire line
