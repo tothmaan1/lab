@@ -1,0 +1,44 @@
+GitLab Practice Notes
+Yesterday, we executed the following steps:
+
+Created an account on gitlab.com.
+Created a repository named "lab" on GitLab.
+On our personal laptop, we created an SSH public/private key pair:
+a) To generate the keys, run:
+bash ssh-keygen -t rsa -b 4096 -C "your_email@example.com" Follow the prompts, and take all defaults for file location and passphrase (if you desire a passphrase).
+
+b) Display the public key and copy it:
+cat ~/.ssh/id_rsa.pub Copy the output.
+Uploaded the public SSH key to GitLab:
+Go to GitLab, then navigate to Settings > SSH Keys.
+Paste your public key into the provided field and save it.
+
+Cloned the repository that we created on GitLab:
+
+Use the SSH method to clone your repository (ensure you have the correct URL from GitLab):
+
+git clone git@gitlab.com:<username>/lab.git
+Replace <username> with your GitLab username.
+
+Additional Notes:
+Make sure you use the SSH URL from GitLab when cloning if you set up SSH keys, as this allows you to operate without entering your credentials frequently.
+
+remember to configure your Git client with your name and email:
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+These configurations help identify the author of the commits and are necessary for collaborative projects.
+This should correct and clarify your practice notes. Let me know if there's anything else you'd like to add or further details you need!
+#4/22/2024
+1: Git add file names
+2: Git commit -m "intial commit"
+3: Git push
+
+
+
+#4/24/2024
+1: Git status 
+2:
+3:
+
+
