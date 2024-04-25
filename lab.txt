@@ -29,31 +29,25 @@ git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 These configurations help identify the author of the commits and are necessary for collaborative projects.
 This should correct and clarify your practice notes. Let me know if there's anything else you'd like to add or further details you need!
-
-#4/22/2024
-1: Git add file names
-2: Git commit -m "intial commit"
-3: Git push
+1. git add file name
+2. git commit -m "initial commit'
+3. git push
 
 
+#04/24/2024
+# learning basic vi editor
+- vi/vim has 3 modes
+  1. esc mode
+  2. insert mode
+  3. normal mode
 
-#4/24/2024
-1: Git status 
-2:
-3:
-
-# learning basic vi editor 
-VM = 3 modes
-1 is escape mode = ESC
-2 is insert mode = I
-3 is normal  mode = First before any changes
-VI = visual editor
-4 is it allows you to make modification/make changes
-
-- First thing to do is enter into insert mode/allows you to type
+-First thing to do is enter into insert mode/allows you to type
 -w: write
 -q: quit
--!: immediately 
--gg: takes you all the way to the top
-shift g: takes you all the way to the bottom of the page
-0: takes you the beggining of the previous line
+-!: immediately
+-gg: takes you to the top of page
+-G: takes you to the bottom of page
+-$: takes you to the end of the line/sentence
+-0: takes you to the beginning of the line/sentence
+
+
