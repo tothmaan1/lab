@@ -1,10 +1,8 @@
 GitLab Practice Notes
 Yesterday, we executed the following steps:
 
-Created an account on gitlab.com.
-Created a repository named "lab" on GitLab.
-On our personal laptop, we created an SSH public/private key pair:
-a) To generate the keys, run:
+
+Created an account on gitlab.com.  Created a repository named "lab" on GitLab.  On our personal laptop, we created an SSH public/private key pair: a) To generate the keys, run:
 bash ssh-keygen -t rsa -b 4096 -C "your_email@example.com" Follow the prompts, and take all defaults for file location and passphrase (if you desire a passphrase).
 
 b) Display the public key and copy it:
@@ -46,12 +44,39 @@ This should correct and clarify your practice notes. Let me know if there's anyt
 -q: quit
 -!: immediately
 -gg: takes you to the top of page
+-yy: means copy
+-P: means paste
 -G: takes you to the bottom of page
 -$: takes you to the end of the line/sentence
 -0: takes you to the beginning of the line/sentence
 -L: is go right on 1 character
--K: is to go up on 1 character
 -J: is to go down on 1 character
 -H: is to go left on 1 character 
 -[0-9] (L,K,J,H): is go any number you chose to move on the character
 -d$: is to delete entire line
+O: is to add one line above a line then edit 
+cd: will to take home directory
+pwd: will tell you where you are
+cd ~: same as cd
+Full path: Shows complete path ( example: /home/homedirectoryname/ )
+Relative path: shows path previous 
+rm -fr: will remove without asking ( use it when knowing )
+cd ..: takes 1 step backward
+mkdir: makes directory
+rmdir: makes directory
+mv: moves file
+t: stickypit means everyone full has access,view, and can edit
+df -h: display file system in human understanding 
+
+`
+File permissions
+W: is write and equels to 4
+R: is read and equels to 2
+X: is execute and equels to 1
+
+Owner    Group    Others
+wrx      wrx      wrx 
+7         7       7
+
+:w
+
